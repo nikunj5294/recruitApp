@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "30A91953-B181-4662-98FA-4FC591937580"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "E7CED36F-B078-48D8-94DF-81BCB7991719"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F4BEB81-C2EF-4A41-9DDF-D5035E7070AF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecruitApp/ViewControllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "redirectToWelcomeScreen()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "920CFDB3-0869-4A25-B058-A854B1191A00"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecruitApp/Webservice/Webservices.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "GenericApiCallForObject(router:showHud:responseModel:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "920CFDB3-0869-4A25-B058-A854B1191A00 - 25293b7bd6bb32a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DataResponse&lt;B&gt;) -&gt; () in (extension in RecruitApp):__C.UIViewController.GenericApiCallForObject&lt;A, B where A: Alamofire.URLRequestConvertible, B: EVReflection.EVObject&gt;(router: A, showHud: Swift.Bool, responseModel: (B) -&gt; ()) -&gt; ()"
+                  moduleName = "RecruitApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Nikunj/Recruit%20App/RecruitApp/RecruitApp/Webservice/Webservices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "182">
+               </Location>
+               <Location
+                  uuid = "920CFDB3-0869-4A25-B058-A854B1191A00 - 166836f35af7650e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in closure #2 (Alamofire.DataResponse&lt;B&gt;) -&gt; () in (extension in RecruitApp):__C.UIViewController.GenericApiCallForObject&lt;A, B where A: Alamofire.URLRequestConvertible, B: EVReflection.EVObject&gt;(router: A, showHud: Swift.Bool, responseModel: (B) -&gt; ()) -&gt; ()"
+                  moduleName = "RecruitApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Nikunj/Recruit%20App/RecruitApp/RecruitApp/Webservice/Webservices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "249">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

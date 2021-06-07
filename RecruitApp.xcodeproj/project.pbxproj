@@ -1,0 +1,1040 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04050A6625E81B7700680756 /* EmployerPostJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04050A6525E81B7700680756 /* EmployerPostJobViewController.swift */; };
+		0435BB21263468810002795A /* EmployerProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0435BB20263468810002795A /* EmployerProfileViewController.swift */; };
+		0447E712264076BD0058798B /* BrowseJobDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0447E711264076BD0058798B /* BrowseJobDetailsViewController.swift */; };
+		044C41A725C5E1A700B052B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044C41A625C5E1A600B052B8 /* ViewController.swift */; };
+		044C41AC25C5E1B600B052B8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044C41AB25C5E1B600B052B8 /* LoginViewController.swift */; };
+		044C41B925C5E43100B052B8 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044C41B825C5E43100B052B8 /* WelcomeViewController.swift */; };
+		044C41C825C7328900B052B8 /* proximanovaregular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 044C41C425C7328900B052B8 /* proximanovaregular.otf */; };
+		044C41C925C7328900B052B8 /* font_light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 044C41C525C7328900B052B8 /* font_light.ttf */; };
+		044C41CA25C7328A00B052B8 /* font_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 044C41C625C7328900B052B8 /* font_bold.ttf */; };
+		044C41CB25C7328A00B052B8 /* font_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 044C41C725C7328900B052B8 /* font_regular.ttf */; };
+		044EA70C262C804300E04894 /* JobDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044EA70B262C804300E04894 /* JobDescriptionViewController.swift */; };
+		044EA724262CB8E400E04894 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044EA723262CB8E400E04894 /* ContactDetailsViewController.swift */; };
+		044EA729262CBEF700E04894 /* UploadLogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044EA728262CBEF700E04894 /* UploadLogoViewController.swift */; };
+		045E4AF025C9E3510004B976 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E4AEF25C9E3510004B976 /* Constant.swift */; };
+		045E4AF525C9E46E0004B976 /* AppExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E4AF425C9E46E0004B976 /* AppExtension.swift */; };
+		045E4B1D25CB1FA70004B976 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E4B1925CB1FA70004B976 /* Response.swift */; };
+		045E4B1E25CB1FA70004B976 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E4B1A25CB1FA70004B976 /* Router.swift */; };
+		045E4B1F25CB1FA70004B976 /* Webservices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E4B1B25CB1FA70004B976 /* Webservices.swift */; };
+		045E4B2025CB1FA70004B976 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E4B1C25CB1FA70004B976 /* Route.swift */; };
+		0468A619263DB3F4002DD6E5 /* CellBrowseJobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468A617263DB3F4002DD6E5 /* CellBrowseJobs.swift */; };
+		0468A61A263DB3F4002DD6E5 /* CellBrowseJobs.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0468A618263DB3F4002DD6E5 /* CellBrowseJobs.xib */; };
+		04694FF925CB2780000FB60A /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04694FF825CB2780000FB60A /* Extension.swift */; };
+		046950BD25D300CD000FB60A /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046950BC25D300CD000FB60A /* Navigation.swift */; };
+		046950C225D301F7000FB60A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046950C125D301F7000FB60A /* TabBarController.swift */; };
+		046950C825D30CBA000FB60A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046950C725D30CBA000FB60A /* HomeViewController.swift */; };
+		046950D225D314D3000FB60A /* CategoryDashboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046950D025D314D3000FB60A /* CategoryDashboardCell.swift */; };
+		046950D325D314D3000FB60A /* CategoryDashboardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046950D125D314D3000FB60A /* CategoryDashboardCell.xib */; };
+		046950F125D319EC000FB60A /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046950F025D319EC000FB60A /* LogoutViewController.swift */; };
+		0469C18525D639BC00B537F7 /* TabBarViewControllerEmployer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469C18425D639BC00B537F7 /* TabBarViewControllerEmployer.swift */; };
+		0469C18E25D63B4A00B537F7 /* EmployerHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469C18D25D63B4A00B537F7 /* EmployerHomeViewController.swift */; };
+		0469C32925D7F56500B537F7 /* JobEmployerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469C32725D7F56500B537F7 /* JobEmployerCell.swift */; };
+		0469C32A25D7F56500B537F7 /* JobEmployerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0469C32825D7F56500B537F7 /* JobEmployerCell.xib */; };
+		0469C34025D7FC4700B537F7 /* EmployerJobListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469C33F25D7FC4700B537F7 /* EmployerJobListViewController.swift */; };
+		0469C34525D8054800B537F7 /* EmployerNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469C34425D8054800B537F7 /* EmployerNotificationViewController.swift */; };
+		0479658925DAF5230006ECC8 /* EmployerMyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479658825DAF5230006ECC8 /* EmployerMyAccountViewController.swift */; };
+		0479658F25DAF68C0006ECC8 /* CellMyAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479658D25DAF68C0006ECC8 /* CellMyAccount.swift */; };
+		0479659025DAF68C0006ECC8 /* CellMyAccount.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0479658E25DAF68C0006ECC8 /* CellMyAccount.xib */; };
+		0479663B25DCD39D0006ECC8 /* EmployerDraftJobListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479663A25DCD39D0006ECC8 /* EmployerDraftJobListViewController.swift */; };
+		0479664025DCD8940006ECC8 /* EmployerExpiredJobListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479663F25DCD8940006ECC8 /* EmployerExpiredJobListViewController.swift */; };
+		047DC8D8263DDB06002CE149 /* BrowseJobFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DC8D7263DDB06002CE149 /* BrowseJobFilterViewController.swift */; };
+		04815F7525C88A0800D1A614 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04815F7425C88A0800D1A614 /* ForgotPasswordViewController.swift */; };
+		04815F7D25C890A900D1A614 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04815F7C25C890A900D1A614 /* RegisterViewController.swift */; };
+		0484F97825C5D7E3009BA308 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484F97725C5D7E3009BA308 /* AppDelegate.swift */; };
+		0484F97A25C5D7E3009BA308 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484F97925C5D7E3009BA308 /* SceneDelegate.swift */; };
+		0484F97F25C5D7E3009BA308 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0484F97D25C5D7E3009BA308 /* Main.storyboard */; };
+		0484F98125C5D7E5009BA308 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0484F98025C5D7E5009BA308 /* Assets.xcassets */; };
+		0484F98425C5D7E5009BA308 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0484F98225C5D7E5009BA308 /* LaunchScreen.storyboard */; };
+		0484F98F25C5D7E5009BA308 /* RecruitAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484F98E25C5D7E5009BA308 /* RecruitAppTests.swift */; };
+		0484F99A25C5D7E5009BA308 /* RecruitAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484F99925C5D7E5009BA308 /* RecruitAppUITests.swift */; };
+		0492619B25DD95E3000CF0D8 /* CellDraftJobList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492619925DD95E3000CF0D8 /* CellDraftJobList.swift */; };
+		0492619C25DD95E3000CF0D8 /* CellDraftJobList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0492619A25DD95E3000CF0D8 /* CellDraftJobList.xib */; };
+		049261A225DDA097000CF0D8 /* CellExpiredJobList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049261A025DDA097000CF0D8 /* CellExpiredJobList.swift */; };
+		049261A325DDA097000CF0D8 /* CellExpiredJobList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049261A125DDA097000CF0D8 /* CellExpiredJobList.xib */; };
+		049390072634A5CE003F1639 /* SelectStateCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049390062634A5CE003F1639 /* SelectStateCityViewController.swift */; };
+		0493902F2635E66D003F1639 /* ManageTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493902E2635E66D003F1639 /* ManageTeamViewController.swift */; };
+		049390342635EABF003F1639 /* AddTeamMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049390332635EABF003F1639 /* AddTeamMemberViewController.swift */; };
+		0493903A2635F55D003F1639 /* CellTeamMembers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049390382635F55D003F1639 /* CellTeamMembers.swift */; };
+		0493903B2635F55D003F1639 /* CellTeamMembers.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049390392635F55D003F1639 /* CellTeamMembers.xib */; };
+		049390482635FE65003F1639 /* SelectMemberTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049390472635FE65003F1639 /* SelectMemberTypeViewController.swift */; };
+		04A1992225E991CB00625E60 /* CellLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1992025E991CB00625E60 /* CellLocation.swift */; };
+		04A1992325E991CB00625E60 /* CellLocation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A1992125E991CB00625E60 /* CellLocation.xib */; };
+		04A1992825E997E900625E60 /* SelectLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1992725E997E900625E60 /* SelectLocationViewController.swift */; };
+		04A1992D25EAC9F700625E60 /* DesiredExperienceLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1992C25EAC9F700625E60 /* DesiredExperienceLevelViewController.swift */; };
+		04A1993225EAD43500625E60 /* YearsExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1993125EAD43400625E60 /* YearsExperienceViewController.swift */; };
+		04A1993725EAD80700625E60 /* JobCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1993625EAD80600625E60 /* JobCategoryViewController.swift */; };
+		04B4BD102628C85100B51D57 /* SelectJobTypeOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4BD0F2628C85100B51D57 /* SelectJobTypeOptionViewController.swift */; };
+		04B4BD152628D95C00B51D57 /* SalaryInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4BD142628D95C00B51D57 /* SalaryInformationViewController.swift */; };
+		04CA7BA925DEE7ED00593C2C /* EmployerTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA7BA825DEE7ED00593C2C /* EmployerTransactionViewController.swift */; };
+		04CA7BAF25DEE9F200593C2C /* CellTransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA7BAD25DEE9F200593C2C /* CellTransactionList.swift */; };
+		04CA7BB025DEE9F200593C2C /* CellTransactionList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CA7BAE25DEE9F200593C2C /* CellTransactionList.xib */; };
+		04CA7BB625DEF5D000593C2C /* CellCandidateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA7BB425DEF5D000593C2C /* CellCandidateList.swift */; };
+		04CA7BB725DEF5D000593C2C /* CellCandidateList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CA7BB525DEF5D000593C2C /* CellCandidateList.xib */; };
+		04CA7BBC25DEFC4200593C2C /* EmployerCandidateListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA7BBB25DEFC4200593C2C /* EmployerCandidateListViewController.swift */; };
+		04CA7BEB25E036C800593C2C /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA7BEA25E036C800593C2C /* ChangePasswordViewController.swift */; };
+		04EDE16426389A5F000209D6 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDE16326389A5F000209D6 /* ContactUsViewController.swift */; };
+		04EDE1762639EEAE000209D6 /* SeekerAppliedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDE1752639EEAE000209D6 /* SeekerAppliedViewController.swift */; };
+		04EDE17C2639F01D000209D6 /* CellSeekerAppliedJobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDE17A2639F01D000209D6 /* CellSeekerAppliedJobs.swift */; };
+		04EDE17D2639F01D000209D6 /* CellSeekerAppliedJobs.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EDE17B2639F01D000209D6 /* CellSeekerAppliedJobs.xib */; };
+		04EDE1A8263B4236000209D6 /* BrowseJobListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDE1A7263B4235000209D6 /* BrowseJobListViewController.swift */; };
+		04EF8EBF2624DCBE00529712 /* CellPackages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF8EBD2624DCBE00529712 /* CellPackages.swift */; };
+		04EF8EC02624DCBE00529712 /* CellPackages.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EF8EBE2624DCBE00529712 /* CellPackages.xib */; };
+		04F72EBD25EBC55D0059FF81 /* JobSkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F72EBC25EBC55D0059FF81 /* JobSkillsViewController.swift */; };
+		04F72ECA25EBD6240059FF81 /* EmployerPackgesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F72EC925EBD6240059FF81 /* EmployerPackgesViewController.swift */; };
+		4B9D18EF10BC471E4E33A343 /* Pods_RecruitApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 531328E57B30A927F475B697 /* Pods_RecruitApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0484F98B25C5D7E5009BA308 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0484F96C25C5D7E3009BA308 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0484F97325C5D7E3009BA308;
+			remoteInfo = RecruitApp;
+		};
+		0484F99625C5D7E5009BA308 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0484F96C25C5D7E3009BA308 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0484F97325C5D7E3009BA308;
+			remoteInfo = RecruitApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04050A6525E81B7700680756 /* EmployerPostJobViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerPostJobViewController.swift; sourceTree = "<group>"; };
+		0435BB20263468810002795A /* EmployerProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerProfileViewController.swift; sourceTree = "<group>"; };
+		0447E711264076BD0058798B /* BrowseJobDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseJobDetailsViewController.swift; sourceTree = "<group>"; };
+		044C41A625C5E1A600B052B8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		044C41AB25C5E1B600B052B8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		044C41B825C5E43100B052B8 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		044C41C425C7328900B052B8 /* proximanovaregular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = proximanovaregular.otf; sourceTree = "<group>"; };
+		044C41C525C7328900B052B8 /* font_light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = font_light.ttf; sourceTree = "<group>"; };
+		044C41C625C7328900B052B8 /* font_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = font_bold.ttf; sourceTree = "<group>"; };
+		044C41C725C7328900B052B8 /* font_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = font_regular.ttf; sourceTree = "<group>"; };
+		044EA70B262C804300E04894 /* JobDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDescriptionViewController.swift; sourceTree = "<group>"; };
+		044EA723262CB8E400E04894 /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
+		044EA728262CBEF700E04894 /* UploadLogoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadLogoViewController.swift; sourceTree = "<group>"; };
+		045E4AEF25C9E3510004B976 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		045E4AF425C9E46E0004B976 /* AppExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExtension.swift; sourceTree = "<group>"; };
+		045E4B1925CB1FA70004B976 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		045E4B1A25CB1FA70004B976 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		045E4B1B25CB1FA70004B976 /* Webservices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservices.swift; sourceTree = "<group>"; };
+		045E4B1C25CB1FA70004B976 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		0468A617263DB3F4002DD6E5 /* CellBrowseJobs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellBrowseJobs.swift; sourceTree = "<group>"; };
+		0468A618263DB3F4002DD6E5 /* CellBrowseJobs.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellBrowseJobs.xib; sourceTree = "<group>"; };
+		04694FF825CB2780000FB60A /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		046950BC25D300CD000FB60A /* Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		046950C125D301F7000FB60A /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		046950C725D30CBA000FB60A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		046950D025D314D3000FB60A /* CategoryDashboardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDashboardCell.swift; sourceTree = "<group>"; };
+		046950D125D314D3000FB60A /* CategoryDashboardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryDashboardCell.xib; sourceTree = "<group>"; };
+		046950F025D319EC000FB60A /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
+		0469C18425D639BC00B537F7 /* TabBarViewControllerEmployer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewControllerEmployer.swift; sourceTree = "<group>"; };
+		0469C18D25D63B4A00B537F7 /* EmployerHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerHomeViewController.swift; sourceTree = "<group>"; };
+		0469C32725D7F56500B537F7 /* JobEmployerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobEmployerCell.swift; sourceTree = "<group>"; };
+		0469C32825D7F56500B537F7 /* JobEmployerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JobEmployerCell.xib; sourceTree = "<group>"; };
+		0469C33F25D7FC4700B537F7 /* EmployerJobListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerJobListViewController.swift; sourceTree = "<group>"; };
+		0469C34425D8054800B537F7 /* EmployerNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerNotificationViewController.swift; sourceTree = "<group>"; };
+		0479658825DAF5230006ECC8 /* EmployerMyAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerMyAccountViewController.swift; sourceTree = "<group>"; };
+		0479658D25DAF68C0006ECC8 /* CellMyAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellMyAccount.swift; sourceTree = "<group>"; };
+		0479658E25DAF68C0006ECC8 /* CellMyAccount.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellMyAccount.xib; sourceTree = "<group>"; };
+		0479663A25DCD39D0006ECC8 /* EmployerDraftJobListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerDraftJobListViewController.swift; sourceTree = "<group>"; };
+		0479663F25DCD8940006ECC8 /* EmployerExpiredJobListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerExpiredJobListViewController.swift; sourceTree = "<group>"; };
+		047DC8D7263DDB06002CE149 /* BrowseJobFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseJobFilterViewController.swift; sourceTree = "<group>"; };
+		04815F7425C88A0800D1A614 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		04815F7C25C890A900D1A614 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		0484F97425C5D7E3009BA308 /* RecruitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecruitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0484F97725C5D7E3009BA308 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0484F97925C5D7E3009BA308 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0484F97E25C5D7E3009BA308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0484F98025C5D7E5009BA308 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0484F98325C5D7E5009BA308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0484F98525C5D7E5009BA308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0484F98A25C5D7E5009BA308 /* RecruitAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecruitAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0484F98E25C5D7E5009BA308 /* RecruitAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitAppTests.swift; sourceTree = "<group>"; };
+		0484F99025C5D7E5009BA308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0484F99525C5D7E5009BA308 /* RecruitAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecruitAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0484F99925C5D7E5009BA308 /* RecruitAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitAppUITests.swift; sourceTree = "<group>"; };
+		0484F99B25C5D7E5009BA308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0492619925DD95E3000CF0D8 /* CellDraftJobList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDraftJobList.swift; sourceTree = "<group>"; };
+		0492619A25DD95E3000CF0D8 /* CellDraftJobList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellDraftJobList.xib; sourceTree = "<group>"; };
+		049261A025DDA097000CF0D8 /* CellExpiredJobList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellExpiredJobList.swift; sourceTree = "<group>"; };
+		049261A125DDA097000CF0D8 /* CellExpiredJobList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellExpiredJobList.xib; sourceTree = "<group>"; };
+		049390062634A5CE003F1639 /* SelectStateCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectStateCityViewController.swift; sourceTree = "<group>"; };
+		0493902E2635E66D003F1639 /* ManageTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageTeamViewController.swift; sourceTree = "<group>"; };
+		049390332635EABF003F1639 /* AddTeamMemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTeamMemberViewController.swift; sourceTree = "<group>"; };
+		049390382635F55D003F1639 /* CellTeamMembers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTeamMembers.swift; sourceTree = "<group>"; };
+		049390392635F55D003F1639 /* CellTeamMembers.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellTeamMembers.xib; sourceTree = "<group>"; };
+		049390472635FE65003F1639 /* SelectMemberTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMemberTypeViewController.swift; sourceTree = "<group>"; };
+		04A1992025E991CB00625E60 /* CellLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellLocation.swift; sourceTree = "<group>"; };
+		04A1992125E991CB00625E60 /* CellLocation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellLocation.xib; sourceTree = "<group>"; };
+		04A1992725E997E900625E60 /* SelectLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLocationViewController.swift; sourceTree = "<group>"; };
+		04A1992C25EAC9F700625E60 /* DesiredExperienceLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesiredExperienceLevelViewController.swift; sourceTree = "<group>"; };
+		04A1993125EAD43400625E60 /* YearsExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearsExperienceViewController.swift; sourceTree = "<group>"; };
+		04A1993625EAD80600625E60 /* JobCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCategoryViewController.swift; sourceTree = "<group>"; };
+		04B4BD0F2628C85100B51D57 /* SelectJobTypeOptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectJobTypeOptionViewController.swift; sourceTree = "<group>"; };
+		04B4BD142628D95C00B51D57 /* SalaryInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryInformationViewController.swift; sourceTree = "<group>"; };
+		04CA7BA825DEE7ED00593C2C /* EmployerTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerTransactionViewController.swift; sourceTree = "<group>"; };
+		04CA7BAD25DEE9F200593C2C /* CellTransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTransactionList.swift; sourceTree = "<group>"; };
+		04CA7BAE25DEE9F200593C2C /* CellTransactionList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellTransactionList.xib; sourceTree = "<group>"; };
+		04CA7BB425DEF5D000593C2C /* CellCandidateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellCandidateList.swift; sourceTree = "<group>"; };
+		04CA7BB525DEF5D000593C2C /* CellCandidateList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellCandidateList.xib; sourceTree = "<group>"; };
+		04CA7BBB25DEFC4200593C2C /* EmployerCandidateListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerCandidateListViewController.swift; sourceTree = "<group>"; };
+		04CA7BEA25E036C800593C2C /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		04EDE16326389A5F000209D6 /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		04EDE1752639EEAE000209D6 /* SeekerAppliedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekerAppliedViewController.swift; sourceTree = "<group>"; };
+		04EDE17A2639F01D000209D6 /* CellSeekerAppliedJobs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSeekerAppliedJobs.swift; sourceTree = "<group>"; };
+		04EDE17B2639F01D000209D6 /* CellSeekerAppliedJobs.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellSeekerAppliedJobs.xib; sourceTree = "<group>"; };
+		04EDE1A7263B4235000209D6 /* BrowseJobListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseJobListViewController.swift; sourceTree = "<group>"; };
+		04EF8EBD2624DCBE00529712 /* CellPackages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellPackages.swift; sourceTree = "<group>"; };
+		04EF8EBE2624DCBE00529712 /* CellPackages.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellPackages.xib; sourceTree = "<group>"; };
+		04F72EBC25EBC55D0059FF81 /* JobSkillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobSkillsViewController.swift; sourceTree = "<group>"; };
+		04F72EC925EBD6240059FF81 /* EmployerPackgesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerPackgesViewController.swift; sourceTree = "<group>"; };
+		3C1319138CF50BFEF8B6440E /* Pods-RecruitApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecruitApp.debug.xcconfig"; path = "Target Support Files/Pods-RecruitApp/Pods-RecruitApp.debug.xcconfig"; sourceTree = "<group>"; };
+		531328E57B30A927F475B697 /* Pods_RecruitApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecruitApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DE7C30B427A2BE2C67B3EFD /* Pods-RecruitApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecruitApp.release.xcconfig"; path = "Target Support Files/Pods-RecruitApp/Pods-RecruitApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0484F97125C5D7E3009BA308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9D18EF10BC471E4E33A343 /* Pods_RecruitApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0484F98725C5D7E5009BA308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0484F99225C5D7E5009BA308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044C41A525C5E1A600B052B8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04EDE1742639EE3D000209D6 /* SeekerTabbarClases */,
+				0469C18C25D63B1100B537F7 /* EmployerTabbarClases */,
+				046950C625D30CA7000FB60A /* TabbarClasses */,
+				044C41A625C5E1A600B052B8 /* ViewController.swift */,
+				044C41B825C5E43100B052B8 /* WelcomeViewController.swift */,
+				044C41AB25C5E1B600B052B8 /* LoginViewController.swift */,
+				04815F7425C88A0800D1A614 /* ForgotPasswordViewController.swift */,
+				04815F7C25C890A900D1A614 /* RegisterViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		044C41C325C7328900B052B8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				044C41C425C7328900B052B8 /* proximanovaregular.otf */,
+				044C41C525C7328900B052B8 /* font_light.ttf */,
+				044C41C625C7328900B052B8 /* font_bold.ttf */,
+				044C41C725C7328900B052B8 /* font_regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		045E4AEE25C9E3270004B976 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				045E4AEF25C9E3510004B976 /* Constant.swift */,
+				045E4AF425C9E46E0004B976 /* AppExtension.swift */,
+				04694FF825CB2780000FB60A /* Extension.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		045E4B1825CB1FA70004B976 /* Webservice */ = {
+			isa = PBXGroup;
+			children = (
+				045E4B1925CB1FA70004B976 /* Response.swift */,
+				045E4B1A25CB1FA70004B976 /* Router.swift */,
+				045E4B1B25CB1FA70004B976 /* Webservices.swift */,
+				045E4B1C25CB1FA70004B976 /* Route.swift */,
+			);
+			path = Webservice;
+			sourceTree = "<group>";
+		};
+		046950BB25D300CD000FB60A /* CustomClass */ = {
+			isa = PBXGroup;
+			children = (
+				046950CF25D3149D000FB60A /* Cells */,
+				046950C125D301F7000FB60A /* TabBarController.swift */,
+				0469C18425D639BC00B537F7 /* TabBarViewControllerEmployer.swift */,
+				046950BC25D300CD000FB60A /* Navigation.swift */,
+			);
+			path = CustomClass;
+			sourceTree = "<group>";
+		};
+		046950C625D30CA7000FB60A /* TabbarClasses */ = {
+			isa = PBXGroup;
+			children = (
+				046950C725D30CBA000FB60A /* HomeViewController.swift */,
+				046950F025D319EC000FB60A /* LogoutViewController.swift */,
+			);
+			path = TabbarClasses;
+			sourceTree = "<group>";
+		};
+		046950CF25D3149D000FB60A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				046950D025D314D3000FB60A /* CategoryDashboardCell.swift */,
+				046950D125D314D3000FB60A /* CategoryDashboardCell.xib */,
+				0469C32725D7F56500B537F7 /* JobEmployerCell.swift */,
+				0469C32825D7F56500B537F7 /* JobEmployerCell.xib */,
+				0479658D25DAF68C0006ECC8 /* CellMyAccount.swift */,
+				0479658E25DAF68C0006ECC8 /* CellMyAccount.xib */,
+				0492619925DD95E3000CF0D8 /* CellDraftJobList.swift */,
+				0492619A25DD95E3000CF0D8 /* CellDraftJobList.xib */,
+				049261A025DDA097000CF0D8 /* CellExpiredJobList.swift */,
+				049261A125DDA097000CF0D8 /* CellExpiredJobList.xib */,
+				04CA7BAD25DEE9F200593C2C /* CellTransactionList.swift */,
+				04CA7BAE25DEE9F200593C2C /* CellTransactionList.xib */,
+				04CA7BB425DEF5D000593C2C /* CellCandidateList.swift */,
+				04CA7BB525DEF5D000593C2C /* CellCandidateList.xib */,
+				04A1992025E991CB00625E60 /* CellLocation.swift */,
+				04A1992125E991CB00625E60 /* CellLocation.xib */,
+				04EF8EBD2624DCBE00529712 /* CellPackages.swift */,
+				04EF8EBE2624DCBE00529712 /* CellPackages.xib */,
+				049390382635F55D003F1639 /* CellTeamMembers.swift */,
+				049390392635F55D003F1639 /* CellTeamMembers.xib */,
+				04EDE17A2639F01D000209D6 /* CellSeekerAppliedJobs.swift */,
+				04EDE17B2639F01D000209D6 /* CellSeekerAppliedJobs.xib */,
+				0468A617263DB3F4002DD6E5 /* CellBrowseJobs.swift */,
+				0468A618263DB3F4002DD6E5 /* CellBrowseJobs.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0469C18C25D63B1100B537F7 /* EmployerTabbarClases */ = {
+			isa = PBXGroup;
+			children = (
+				0469C18D25D63B4A00B537F7 /* EmployerHomeViewController.swift */,
+				0469C33F25D7FC4700B537F7 /* EmployerJobListViewController.swift */,
+				0469C34425D8054800B537F7 /* EmployerNotificationViewController.swift */,
+				0479658825DAF5230006ECC8 /* EmployerMyAccountViewController.swift */,
+				0479663A25DCD39D0006ECC8 /* EmployerDraftJobListViewController.swift */,
+				0479663F25DCD8940006ECC8 /* EmployerExpiredJobListViewController.swift */,
+				04CA7BA825DEE7ED00593C2C /* EmployerTransactionViewController.swift */,
+				04CA7BBB25DEFC4200593C2C /* EmployerCandidateListViewController.swift */,
+				04CA7BEA25E036C800593C2C /* ChangePasswordViewController.swift */,
+				04050A6525E81B7700680756 /* EmployerPostJobViewController.swift */,
+				04A1992725E997E900625E60 /* SelectLocationViewController.swift */,
+				04A1992C25EAC9F700625E60 /* DesiredExperienceLevelViewController.swift */,
+				04A1993125EAD43400625E60 /* YearsExperienceViewController.swift */,
+				04A1993625EAD80600625E60 /* JobCategoryViewController.swift */,
+				04F72EBC25EBC55D0059FF81 /* JobSkillsViewController.swift */,
+				04F72EC925EBD6240059FF81 /* EmployerPackgesViewController.swift */,
+				04B4BD0F2628C85100B51D57 /* SelectJobTypeOptionViewController.swift */,
+				04B4BD142628D95C00B51D57 /* SalaryInformationViewController.swift */,
+				044EA70B262C804300E04894 /* JobDescriptionViewController.swift */,
+				044EA723262CB8E400E04894 /* ContactDetailsViewController.swift */,
+				044EA728262CBEF700E04894 /* UploadLogoViewController.swift */,
+				0435BB20263468810002795A /* EmployerProfileViewController.swift */,
+				049390062634A5CE003F1639 /* SelectStateCityViewController.swift */,
+				0493902E2635E66D003F1639 /* ManageTeamViewController.swift */,
+				049390332635EABF003F1639 /* AddTeamMemberViewController.swift */,
+				049390472635FE65003F1639 /* SelectMemberTypeViewController.swift */,
+				04EDE16326389A5F000209D6 /* ContactUsViewController.swift */,
+			);
+			path = EmployerTabbarClases;
+			sourceTree = "<group>";
+		};
+		0484F96B25C5D7E3009BA308 = {
+			isa = PBXGroup;
+			children = (
+				0484F97625C5D7E3009BA308 /* RecruitApp */,
+				0484F98D25C5D7E5009BA308 /* RecruitAppTests */,
+				0484F99825C5D7E5009BA308 /* RecruitAppUITests */,
+				0484F97525C5D7E3009BA308 /* Products */,
+				93BA4034E656459CE4C6D278 /* Pods */,
+				9B8F1005FA7903080523E424 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0484F97525C5D7E3009BA308 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0484F97425C5D7E3009BA308 /* RecruitApp.app */,
+				0484F98A25C5D7E5009BA308 /* RecruitAppTests.xctest */,
+				0484F99525C5D7E5009BA308 /* RecruitAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0484F97625C5D7E3009BA308 /* RecruitApp */ = {
+			isa = PBXGroup;
+			children = (
+				0484F97725C5D7E3009BA308 /* AppDelegate.swift */,
+				0484F97925C5D7E3009BA308 /* SceneDelegate.swift */,
+				046950BB25D300CD000FB60A /* CustomClass */,
+				045E4B1825CB1FA70004B976 /* Webservice */,
+				045E4AEE25C9E3270004B976 /* Utilities */,
+				044C41C325C7328900B052B8 /* Fonts */,
+				044C41A525C5E1A600B052B8 /* ViewControllers */,
+				0484F97D25C5D7E3009BA308 /* Main.storyboard */,
+				0484F98025C5D7E5009BA308 /* Assets.xcassets */,
+				0484F98225C5D7E5009BA308 /* LaunchScreen.storyboard */,
+				0484F98525C5D7E5009BA308 /* Info.plist */,
+			);
+			path = RecruitApp;
+			sourceTree = "<group>";
+		};
+		0484F98D25C5D7E5009BA308 /* RecruitAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0484F98E25C5D7E5009BA308 /* RecruitAppTests.swift */,
+				0484F99025C5D7E5009BA308 /* Info.plist */,
+			);
+			path = RecruitAppTests;
+			sourceTree = "<group>";
+		};
+		0484F99825C5D7E5009BA308 /* RecruitAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0484F99925C5D7E5009BA308 /* RecruitAppUITests.swift */,
+				0484F99B25C5D7E5009BA308 /* Info.plist */,
+			);
+			path = RecruitAppUITests;
+			sourceTree = "<group>";
+		};
+		04EDE1742639EE3D000209D6 /* SeekerTabbarClases */ = {
+			isa = PBXGroup;
+			children = (
+				04EDE1752639EEAE000209D6 /* SeekerAppliedViewController.swift */,
+				04EDE1A7263B4235000209D6 /* BrowseJobListViewController.swift */,
+				047DC8D7263DDB06002CE149 /* BrowseJobFilterViewController.swift */,
+				0447E711264076BD0058798B /* BrowseJobDetailsViewController.swift */,
+			);
+			path = SeekerTabbarClases;
+			sourceTree = "<group>";
+		};
+		93BA4034E656459CE4C6D278 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C1319138CF50BFEF8B6440E /* Pods-RecruitApp.debug.xcconfig */,
+				7DE7C30B427A2BE2C67B3EFD /* Pods-RecruitApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B8F1005FA7903080523E424 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				531328E57B30A927F475B697 /* Pods_RecruitApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0484F97325C5D7E3009BA308 /* RecruitApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0484F99E25C5D7E5009BA308 /* Build configuration list for PBXNativeTarget "RecruitApp" */;
+			buildPhases = (
+				BB722F00A4815A8790EF8CAB /* [CP] Check Pods Manifest.lock */,
+				0484F97025C5D7E3009BA308 /* Sources */,
+				0484F97125C5D7E3009BA308 /* Frameworks */,
+				0484F97225C5D7E3009BA308 /* Resources */,
+				15A1096E86BD4C05AE8F3C41 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecruitApp;
+			productName = RecruitApp;
+			productReference = 0484F97425C5D7E3009BA308 /* RecruitApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0484F98925C5D7E5009BA308 /* RecruitAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0484F9A125C5D7E5009BA308 /* Build configuration list for PBXNativeTarget "RecruitAppTests" */;
+			buildPhases = (
+				0484F98625C5D7E5009BA308 /* Sources */,
+				0484F98725C5D7E5009BA308 /* Frameworks */,
+				0484F98825C5D7E5009BA308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0484F98C25C5D7E5009BA308 /* PBXTargetDependency */,
+			);
+			name = RecruitAppTests;
+			productName = RecruitAppTests;
+			productReference = 0484F98A25C5D7E5009BA308 /* RecruitAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0484F99425C5D7E5009BA308 /* RecruitAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0484F9A425C5D7E5009BA308 /* Build configuration list for PBXNativeTarget "RecruitAppUITests" */;
+			buildPhases = (
+				0484F99125C5D7E5009BA308 /* Sources */,
+				0484F99225C5D7E5009BA308 /* Frameworks */,
+				0484F99325C5D7E5009BA308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0484F99725C5D7E5009BA308 /* PBXTargetDependency */,
+			);
+			name = RecruitAppUITests;
+			productName = RecruitAppUITests;
+			productReference = 0484F99525C5D7E5009BA308 /* RecruitAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0484F96C25C5D7E3009BA308 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					0484F97325C5D7E3009BA308 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					0484F98925C5D7E5009BA308 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 0484F97325C5D7E3009BA308;
+					};
+					0484F99425C5D7E5009BA308 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 0484F97325C5D7E3009BA308;
+					};
+				};
+			};
+			buildConfigurationList = 0484F96F25C5D7E3009BA308 /* Build configuration list for PBXProject "RecruitApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0484F96B25C5D7E3009BA308;
+			productRefGroup = 0484F97525C5D7E3009BA308 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0484F97325C5D7E3009BA308 /* RecruitApp */,
+				0484F98925C5D7E5009BA308 /* RecruitAppTests */,
+				0484F99425C5D7E5009BA308 /* RecruitAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0484F97225C5D7E3009BA308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EF8EC02624DCBE00529712 /* CellPackages.xib in Resources */,
+				04CA7BB025DEE9F200593C2C /* CellTransactionList.xib in Resources */,
+				0493903B2635F55D003F1639 /* CellTeamMembers.xib in Resources */,
+				0492619C25DD95E3000CF0D8 /* CellDraftJobList.xib in Resources */,
+				046950D325D314D3000FB60A /* CategoryDashboardCell.xib in Resources */,
+				0479659025DAF68C0006ECC8 /* CellMyAccount.xib in Resources */,
+				0484F98425C5D7E5009BA308 /* LaunchScreen.storyboard in Resources */,
+				04CA7BB725DEF5D000593C2C /* CellCandidateList.xib in Resources */,
+				044C41C925C7328900B052B8 /* font_light.ttf in Resources */,
+				0469C32A25D7F56500B537F7 /* JobEmployerCell.xib in Resources */,
+				0484F98125C5D7E5009BA308 /* Assets.xcassets in Resources */,
+				049261A325DDA097000CF0D8 /* CellExpiredJobList.xib in Resources */,
+				04A1992325E991CB00625E60 /* CellLocation.xib in Resources */,
+				044C41CB25C7328A00B052B8 /* font_regular.ttf in Resources */,
+				04EDE17D2639F01D000209D6 /* CellSeekerAppliedJobs.xib in Resources */,
+				0484F97F25C5D7E3009BA308 /* Main.storyboard in Resources */,
+				044C41CA25C7328A00B052B8 /* font_bold.ttf in Resources */,
+				044C41C825C7328900B052B8 /* proximanovaregular.otf in Resources */,
+				0468A61A263DB3F4002DD6E5 /* CellBrowseJobs.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0484F98825C5D7E5009BA308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0484F99325C5D7E5009BA308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15A1096E86BD4C05AE8F3C41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecruitApp/Pods-RecruitApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecruitApp/Pods-RecruitApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RecruitApp/Pods-RecruitApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB722F00A4815A8790EF8CAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RecruitApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0484F97025C5D7E3009BA308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045E4B1E25CB1FA70004B976 /* Router.swift in Sources */,
+				04A1993225EAD43500625E60 /* YearsExperienceViewController.swift in Sources */,
+				046950C225D301F7000FB60A /* TabBarController.swift in Sources */,
+				04A1992225E991CB00625E60 /* CellLocation.swift in Sources */,
+				046950D225D314D3000FB60A /* CategoryDashboardCell.swift in Sources */,
+				0479658925DAF5230006ECC8 /* EmployerMyAccountViewController.swift in Sources */,
+				04A1992D25EAC9F700625E60 /* DesiredExperienceLevelViewController.swift in Sources */,
+				049390072634A5CE003F1639 /* SelectStateCityViewController.swift in Sources */,
+				047DC8D8263DDB06002CE149 /* BrowseJobFilterViewController.swift in Sources */,
+				0493902F2635E66D003F1639 /* ManageTeamViewController.swift in Sources */,
+				04A1992825E997E900625E60 /* SelectLocationViewController.swift in Sources */,
+				045E4AF525C9E46E0004B976 /* AppExtension.swift in Sources */,
+				049261A225DDA097000CF0D8 /* CellExpiredJobList.swift in Sources */,
+				04EDE17C2639F01D000209D6 /* CellSeekerAppliedJobs.swift in Sources */,
+				046950C825D30CBA000FB60A /* HomeViewController.swift in Sources */,
+				0469C18E25D63B4A00B537F7 /* EmployerHomeViewController.swift in Sources */,
+				0469C34525D8054800B537F7 /* EmployerNotificationViewController.swift in Sources */,
+				0492619B25DD95E3000CF0D8 /* CellDraftJobList.swift in Sources */,
+				04EDE1762639EEAE000209D6 /* SeekerAppliedViewController.swift in Sources */,
+				0469C18525D639BC00B537F7 /* TabBarViewControllerEmployer.swift in Sources */,
+				0479658F25DAF68C0006ECC8 /* CellMyAccount.swift in Sources */,
+				0469C34025D7FC4700B537F7 /* EmployerJobListViewController.swift in Sources */,
+				049390482635FE65003F1639 /* SelectMemberTypeViewController.swift in Sources */,
+				04CA7BEB25E036C800593C2C /* ChangePasswordViewController.swift in Sources */,
+				04CA7BBC25DEFC4200593C2C /* EmployerCandidateListViewController.swift in Sources */,
+				04B4BD102628C85100B51D57 /* SelectJobTypeOptionViewController.swift in Sources */,
+				044EA729262CBEF700E04894 /* UploadLogoViewController.swift in Sources */,
+				044C41AC25C5E1B600B052B8 /* LoginViewController.swift in Sources */,
+				04EDE1A8263B4236000209D6 /* BrowseJobListViewController.swift in Sources */,
+				04B4BD152628D95C00B51D57 /* SalaryInformationViewController.swift in Sources */,
+				04EF8EBF2624DCBE00529712 /* CellPackages.swift in Sources */,
+				044C41B925C5E43100B052B8 /* WelcomeViewController.swift in Sources */,
+				0468A619263DB3F4002DD6E5 /* CellBrowseJobs.swift in Sources */,
+				045E4B2025CB1FA70004B976 /* Route.swift in Sources */,
+				04815F7D25C890A900D1A614 /* RegisterViewController.swift in Sources */,
+				045E4B1D25CB1FA70004B976 /* Response.swift in Sources */,
+				045E4B1F25CB1FA70004B976 /* Webservices.swift in Sources */,
+				045E4AF025C9E3510004B976 /* Constant.swift in Sources */,
+				04CA7BB625DEF5D000593C2C /* CellCandidateList.swift in Sources */,
+				049390342635EABF003F1639 /* AddTeamMemberViewController.swift in Sources */,
+				04694FF925CB2780000FB60A /* Extension.swift in Sources */,
+				04815F7525C88A0800D1A614 /* ForgotPasswordViewController.swift in Sources */,
+				0493903A2635F55D003F1639 /* CellTeamMembers.swift in Sources */,
+				04CA7BAF25DEE9F200593C2C /* CellTransactionList.swift in Sources */,
+				044C41A725C5E1A700B052B8 /* ViewController.swift in Sources */,
+				0447E712264076BD0058798B /* BrowseJobDetailsViewController.swift in Sources */,
+				044EA70C262C804300E04894 /* JobDescriptionViewController.swift in Sources */,
+				046950F125D319EC000FB60A /* LogoutViewController.swift in Sources */,
+				0435BB21263468810002795A /* EmployerProfileViewController.swift in Sources */,
+				0479663B25DCD39D0006ECC8 /* EmployerDraftJobListViewController.swift in Sources */,
+				04A1993725EAD80700625E60 /* JobCategoryViewController.swift in Sources */,
+				044EA724262CB8E400E04894 /* ContactDetailsViewController.swift in Sources */,
+				0469C32925D7F56500B537F7 /* JobEmployerCell.swift in Sources */,
+				046950BD25D300CD000FB60A /* Navigation.swift in Sources */,
+				04050A6625E81B7700680756 /* EmployerPostJobViewController.swift in Sources */,
+				0479664025DCD8940006ECC8 /* EmployerExpiredJobListViewController.swift in Sources */,
+				04F72EBD25EBC55D0059FF81 /* JobSkillsViewController.swift in Sources */,
+				04EDE16426389A5F000209D6 /* ContactUsViewController.swift in Sources */,
+				0484F97825C5D7E3009BA308 /* AppDelegate.swift in Sources */,
+				04F72ECA25EBD6240059FF81 /* EmployerPackgesViewController.swift in Sources */,
+				0484F97A25C5D7E3009BA308 /* SceneDelegate.swift in Sources */,
+				04CA7BA925DEE7ED00593C2C /* EmployerTransactionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0484F98625C5D7E5009BA308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0484F98F25C5D7E5009BA308 /* RecruitAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0484F99125C5D7E5009BA308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0484F99A25C5D7E5009BA308 /* RecruitAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0484F98C25C5D7E5009BA308 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0484F97325C5D7E3009BA308 /* RecruitApp */;
+			targetProxy = 0484F98B25C5D7E5009BA308 /* PBXContainerItemProxy */;
+		};
+		0484F99725C5D7E5009BA308 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0484F97325C5D7E3009BA308 /* RecruitApp */;
+			targetProxy = 0484F99625C5D7E5009BA308 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0484F97D25C5D7E3009BA308 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0484F97E25C5D7E3009BA308 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0484F98225C5D7E5009BA308 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0484F98325C5D7E5009BA308 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0484F99C25C5D7E5009BA308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0484F99D25C5D7E5009BA308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0484F99F25C5D7E5009BA308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C1319138CF50BFEF8B6440E /* Pods-RecruitApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4TBJ83LS;
+				INFOPLIST_FILE = RecruitApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RecruitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0484F9A025C5D7E5009BA308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DE7C30B427A2BE2C67B3EFD /* Pods-RecruitApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4TBJ83LS;
+				INFOPLIST_FILE = RecruitApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RecruitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0484F9A225C5D7E5009BA308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4TBJ83LS;
+				INFOPLIST_FILE = RecruitAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RecruitAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecruitApp.app/RecruitApp";
+			};
+			name = Debug;
+		};
+		0484F9A325C5D7E5009BA308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4TBJ83LS;
+				INFOPLIST_FILE = RecruitAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RecruitAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecruitApp.app/RecruitApp";
+			};
+			name = Release;
+		};
+		0484F9A525C5D7E5009BA308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4TBJ83LS;
+				INFOPLIST_FILE = RecruitAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RecruitAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecruitApp;
+			};
+			name = Debug;
+		};
+		0484F9A625C5D7E5009BA308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4TBJ83LS;
+				INFOPLIST_FILE = RecruitAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RecruitAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecruitApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0484F96F25C5D7E3009BA308 /* Build configuration list for PBXProject "RecruitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0484F99C25C5D7E5009BA308 /* Debug */,
+				0484F99D25C5D7E5009BA308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0484F99E25C5D7E5009BA308 /* Build configuration list for PBXNativeTarget "RecruitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0484F99F25C5D7E5009BA308 /* Debug */,
+				0484F9A025C5D7E5009BA308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0484F9A125C5D7E5009BA308 /* Build configuration list for PBXNativeTarget "RecruitAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0484F9A225C5D7E5009BA308 /* Debug */,
+				0484F9A325C5D7E5009BA308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0484F9A425C5D7E5009BA308 /* Build configuration list for PBXNativeTarget "RecruitAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0484F9A525C5D7E5009BA308 /* Debug */,
+				0484F9A625C5D7E5009BA308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0484F96C25C5D7E3009BA308 /* Project object */;
+}
